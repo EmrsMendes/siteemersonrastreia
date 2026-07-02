@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Emerson Rastreia | Proteção Veicular 24h</title>
+  <title>Emerson Rastreia | Cuidado Veicular 24h</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,24 +12,20 @@
 <header class="navbar" id="inicio">
   <div class="container nav-content">
     <a href="#inicio" class="brand">
-      <img src="img/logo.png" alt="Emerson Rastreia">
+      <img class="brand-logo" src="img/logo.png" alt="Emerson Rastreia">
+      <img class="brand-bot" src="img/mascote.png" alt="Robozinho Emerson Rastreia">
     </a>
 
-    <button class="menu-toggle">☰</button>
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">☰</button>
 
     <nav class="nav-menu">
       <a href="#inicio">Início</a>
       <a href="#planos">Planos</a>
       <a href="#beneficios">Benefícios</a>
-      <a href="#como-funciona">Como Funciona</a>
-      <a href="#depoimentos">Depoimentos</a>
-      <a href="#faq">FAQ</a>
-      <a href="#contato">Contato</a>
+      <a href="#contato">Pré-ficha</a>
     </nav>
 
-    <a class="btn btn-whatsapp" href="https://wa.me/5581983587253" target="_blank">
-      WhatsApp
-    </a>
+    <a class="btn btn-whatsapp" href="#contato">Pré-ficha</a>
   </div>
 </header>
 
@@ -38,35 +34,82 @@
 <section class="hero">
   <div class="container hero-grid">
 
-    <div class="hero-text reveal active">
-      <span class="tag">🚀 PROTEÇÃO VEICULAR 24H</span>
+    <div class="hero-copy reveal active">
+      <span class="tag">APP, RASTREAMENTO E ATENDIMENTO DIRETO</span>
 
       <h1>
-        PROTEÇÃO VEICULAR<br>
-        COM QUEM ENTENDE<br>
-        <strong>DO ASSUNTO!</strong>
+        Cuidado veicular direto no WhatsApp.
       </h1>
 
       <p>
-        Monitoramento, rastreamento e recuperação veicular com tecnologia de ponta,
-        atendimento especializado e suporte direto pelo WhatsApp.
+        Escolha o plano, envie sua pré-ficha e eu te ligo para finalizar
+        o atendimento.
       </p>
 
       <div class="hero-actions">
-        <a class="btn btn-primary" href="#contato">Solicitar Cotação</a>
-        <a class="btn btn-secondary" href="#planos">Ver Planos</a>
+        <a class="btn btn-primary" href="#contato">Começar pré-ficha</a>
+        <a class="btn btn-secondary" href="#planos">Ver planos</a>
       </div>
+
+      <div class="hero-tags">
+        <span>Rastreamento 4G</span>
+        <span>Monitoramento 24h</span>
+        <span>App exclusivo</span>
+      </div>
+
+      <small class="disclaimer">Serviço de rastreamento, monitoramento e assistência. Não somos seguradora veicular.</small>
     </div>
 
-    <div class="hero-logo-wrap reveal active">
-      <img src="img/logo.png" class="hero-logo" alt="Logo Emerson Rastreia">
+    <div class="phone-card reveal active">
+      <div class="mascot-panel">
+        <img src="img/mascote.png" alt="Robozinho Emerson Rastreia">
+        <div>
+          <small>Pré-ficha guiada</small>
+          <strong>Fale comigo pelo WhatsApp</strong>
+        </div>
+      </div>
+
+      <div class="phone-top">
+        <span class="status-dot"></span>
+        <span>Atendimento em andamento</span>
+      </div>
+
+      <div class="vehicle-panel">
+        <small>Status do veículo</small>
+        <strong>Monitorado agora</strong>
+        <div class="signal-bar"><span></span></div>
+      </div>
+
+      <div class="quick-actions">
+        <div>
+          <b>GPS</b>
+          <small>Tempo real</small>
+        </div>
+        <div>
+          <b>4G</b>
+          <small>Rastreamento</small>
+        </div>
+        <div>
+          <b>24h</b>
+          <small>Central</small>
+        </div>
+        <div>
+          <b>App</b>
+          <small>Controle</small>
+        </div>
+      </div>
+
+      <a href="#contato" class="phone-cta">Enviar dados pelo WhatsApp</a>
     </div>
 
-    <div class="hero-mascot reveal active">
-      <span class="mascot-light"></span>
-      <img src="img/mascote.png" alt="Mascote Emerson Rastreia">
-    </div>
+  </div>
+</section>
 
+<section class="proof-bar reveal">
+  <div class="container proof-grid">
+    <div><strong>4G</strong><span>Rastreamento moderno</span></div>
+    <div><strong>24h</strong><span>Monitoramento ativo</span></div>
+    <div><strong>Brasil</strong><span>Serviços em nível nacional</span></div>
   </div>
 </section>
 
@@ -74,60 +117,63 @@
   <div class="container">
 
     <div class="section-title">
-      <span>NOSSOS PLANOS</span>
-      <h2>Escolha o melhor plano para o seu veículo</h2>
-      <p>Informações temporárias para visualização. Depois substituímos pelos benefícios reais.</p>
+      <span>PLANOS DR.MONITORA</span>
+      <h2>Escolha o plano e envie sua pré-ficha</h2>
+      <p>Sem valor solto na página. A ideia é entender seu veículo, ligar para você e finalizar o atendimento com clareza.</p>
     </div>
 
     <div class="cards-planos">
 
       <article class="plano-card">
-        <div class="plano-header essencial">ESSENCIAL</div>
+        <div class="plano-header smart">DR SMART</div>
         <div class="plano-body">
-          <p class="price">R$ 69,90 <small>/mês</small></p>
+          <p class="plano-desc">Para quem quer rastreamento, app e monitoramento no dia a dia.</p>
           <ul>
-            <li>✓ Monitoramento 24h</li>
-            <li>✓ Localização em tempo real</li>
-            <li>✓ Central de emergência</li>
-            <li>✓ Aplicativo exclusivo</li>
+            <li>App exclusivo e portal web</li>
+            <li>Alarme digital</li>
+            <li>Rastreamento 4G</li>
+            <li>Monitoramento 24h</li>
+            <li>Recuperação pronta resposta</li>
+            <li>Apoio tático terrestre/aéreo</li>
+            <li>Sem burocracia e sem análise de perfil</li>
+            <li>Aceitamos todos os veículos</li>
           </ul>
-          <a class="btn-card" target="_blank" href="https://wa.me/5581983587253?text=Olá%20Emerson,%20tenho%20interesse%20no%20Plano%20Essencial.">
-            Ver Detalhes
-          </a>
+          <a class="btn-card" href="#contato">Quero o Smart</a>
         </div>
       </article>
 
       <article class="plano-card featured">
-        <div class="badge">MAIS PROCURADO</div>
-        <div class="plano-header smart">SMART</div>
+        <div class="badge">MAIS VENDIDO</div>
+        <div class="plano-header essencial">DR ESSENCIAL</div>
         <div class="plano-body">
-          <p class="price">R$ 99,90 <small>/mês</small></p>
+          <p class="plano-desc">Para quem quer os recursos do Smart com assistência emergencial 24h.</p>
           <ul>
-            <li>✓ Tudo do Essencial</li>
-            <li>✓ Bloqueio remoto</li>
-            <li>✓ Assistência 24h</li>
-            <li>✓ Suporte prioritário</li>
+            <li>Tudo do DR Smart</li>
+            <li>Assistência emergencial 24h</li>
+            <li>Guincho</li>
+            <li>Socorro elétrico</li>
+            <li>Chaveiro</li>
+            <li>Auxílio pane seca</li>
+            <li>Troca de pneus</li>
+            <li>Serviços em nível Brasil</li>
           </ul>
-          <a class="btn-card" target="_blank" href="https://wa.me/5581983587253?text=Olá%20Emerson,%20tenho%20interesse%20no%20Plano%20Smart.">
-            Ver Detalhes
-          </a>
+          <a class="btn-card" href="#contato">Quero o Essencial</a>
         </div>
       </article>
 
       <article class="plano-card">
-        <div class="plano-header premium">PREMIUM</div>
+        <div class="plano-header premium">DR PREMIUM</div>
         <div class="plano-body">
-          <p class="price">R$ 149,90 <small>/mês</small></p>
+          <p class="plano-desc">Para quem quer o pacote mais completo, com atendimento roubo/furto e assistência 24h.</p>
           <ul>
-            <li>✓ Tudo do Smart</li>
-            <li>✓ Guincho</li>
-            <li>✓ Pane seca</li>
-            <li>✓ Chaveiro</li>
-            <li>✓ Atendimento VIP</li>
+            <li>Tudo do DR Essencial</li>
+            <li>Atendimento roubo/furto</li>
+            <li>Assistência emergencial 24h</li>
+            <li>Guincho, chaveiro e troca de pneus</li>
+            <li>Pane seca, socorro elétrico e apoio mecânico</li>
+            <li>Serviços em nível Brasil</li>
           </ul>
-          <a class="btn-card" target="_blank" href="https://wa.me/5581983587253?text=Olá%20Emerson,%20tenho%20interesse%20no%20Plano%20Premium.">
-            Ver Detalhes
-          </a>
+          <a class="btn-card" href="#contato">Quero o Premium</a>
         </div>
       </article>
 
@@ -139,54 +185,63 @@
   <div class="container">
 
     <div class="section-title">
-      <span>POR QUE ESCOLHER</span>
-      <h2>Proteção inteligente para seu veículo</h2>
+      <span>BENEFÍCIOS</span>
+      <h2>Uma experiência simples para cuidar do veículo</h2>
     </div>
 
     <div class="beneficios-grid">
-      <div class="beneficio-card"><div class="icone">📍</div><h3>Localização em Tempo Real</h3><p>Acompanhe seu veículo diretamente pelo aplicativo.</p></div>
-      <div class="beneficio-card"><div class="icone">🛡️</div><h3>Monitoramento 24 Horas</h3><p>Equipe especializada acompanhando seu veículo.</p></div>
-      <div class="beneficio-card"><div class="icone">📱</div><h3>Aplicativo Exclusivo</h3><p>Controle tudo pelo celular de forma simples.</p></div>
-      <div class="beneficio-card"><div class="icone">🚨</div><h3>Central de Emergência</h3><p>Atendimento rápido quando você precisar.</p></div>
-      <div class="beneficio-card"><div class="icone">🚗</div><h3>Recuperação Veicular</h3><p>Tecnologia para auxiliar na localização do veículo.</p></div>
-      <div class="beneficio-card"><div class="icone">⚡</div><h3>Instalação Rápida</h3><p>Processo simples e sem burocracia.</p></div>
+      <div class="beneficio-card"><div class="icone">📍</div><h3>Localização em tempo real</h3><p>Acompanhe seu veículo pelo aplicativo com mapa ao vivo.</p></div>
+      <div class="beneficio-card"><div class="icone">📱</div><h3>App exclusivo</h3><p>Tenha recursos de acompanhamento, alertas e solicitação de assistência.</p></div>
+      <div class="beneficio-card"><div class="icone">🚨</div><h3>Alarme digital</h3><p>Receba alerta quando o veículo entrar em movimento.</p></div>
+      <div class="beneficio-card"><div class="icone">🛠️</div><h3>Assistência 24h</h3><p>Guincho, chaveiro, pane seca, troca de pneus e socorro elétrico nos planos elegíveis.</p></div>
+      <div class="beneficio-card"><div class="icone">🚗</div><h3>Pronta resposta</h3><p>Apoio de recuperação e equipes de suporte conforme o plano contratado.</p></div>
+     <div class="beneficio-card"><div class="icone">⚡</div><h3>Sem burocracia</h3><p>Atendimento prático, sem análise de perfil e com orientação para instalação.</p></div>
     </div>
 
   </div>
 </section>
 
-<section class="steps section reveal" id="como-funciona">
+<section class="captura section reveal" id="contato">
   <div class="container">
+    <div class="captura-box">
 
-    <div class="section-title light-title">
-      <span>COMO FUNCIONA</span>
-      <h2>Contratação simples e acompanhamento direto</h2>
+      <div class="captura-texto">
+        <span>PRÉ-FICHA DE ATENDIMENTO</span>
+        <h2>Envie seus dados direto para meu WhatsApp</h2>
+        <p>Com essas informações, eu já consigo ligar e adiantar o atendimento.</p>
+      </div>
+
+      <div class="docs-checklist">
+        <h3>Depois da pré-ficha, deixe separado:</h3>
+        <ul>
+          <li>Foto da CNH</li>
+          <li>Foto do documento do veículo</li>
+          <li>Foto do comprovante de endereço</li>
+          <li>E-mail e dois telefones para contato</li>
+        </ul>
+      </div>
+
+      <form id="formCotacao">
+        <select id="plano" required>
+          <option value="">Plano de interesse</option>
+          <option value="DR Smart">DR Smart</option>
+          <option value="DR Essencial">DR Essencial</option>
+          <option value="DR Premium">DR Premium</option>
+          <option value="Quero orientação">Quero orientação</option>
+        </select>
+        <input type="text" id="nome" placeholder="Nome completo" required>
+        <input type="tel" id="telefone" placeholder="WhatsApp principal com DDD" required>
+        <input type="tel" id="telefone2" placeholder="Segundo telefone para contato" required>
+        <input type="email" id="email" placeholder="E-mail" required>
+        <input type="text" id="cidade" placeholder="Cidade / Estado" required>
+        <input type="text" id="placa" placeholder="Placa do veículo" required>
+        <input type="text" id="cep" placeholder="CEP" required>
+        <input type="text" id="uso" placeholder="Uso: particular, app, trabalho..." required>
+        <input type="text" id="horario" placeholder="Melhor horário para ligação" required>
+        <button type="submit">ENVIAR PRÉ-FICHA NO WHATSAPP</button>
+      </form>
+
     </div>
-
-    <div class="steps-grid">
-      <div class="step"><b>1</b><h3>Solicite cotação</h3><p>Fale pelo WhatsApp ou preencha o formulário.</p></div>
-      <div class="step"><b>2</b><h3>Escolha o plano</h3><p>Receba orientação para o melhor plano.</p></div>
-      <div class="step"><b>3</b><h3>Agende instalação</h3><p>Processo prático e acompanhado.</p></div>
-      <div class="step"><b>4</b><h3>Proteção ativa</h3><p>Seu veículo monitorado com suporte.</p></div>
-    </div>
-
-  </div>
-</section>
-
-<section class="depoimentos section reveal" id="depoimentos">
-  <div class="container">
-
-    <div class="section-title">
-      <span>CLIENTES SATISFEITOS</span>
-      <h2>O que nossos clientes dizem</h2>
-    </div>
-
-    <div class="depoimentos-grid">
-      <article class="depoimento-card"><div class="estrelas">★★★★★</div><p>Atendimento excelente e instalação muito rápida.</p><h4>João Silva</h4></article>
-      <article class="depoimento-card"><div class="estrelas">★★★★★</div><p>Ótimo suporte e aplicativo muito fácil de usar.</p><h4>Maria Souza</h4></article>
-      <article class="depoimento-card"><div class="estrelas">★★★★★</div><p>Recomendo para quem procura segurança.</p><h4>Carlos Santos</h4></article>
-    </div>
-
   </div>
 </section>
 
@@ -195,113 +250,55 @@
 
     <div class="section-title">
       <span>DÚVIDAS FREQUENTES</span>
-      <h2>Perguntas Frequentes</h2>
+      <h2>Antes de enviar sua pré-ficha</h2>
     </div>
 
     <div class="faq-container">
-
       <div class="faq-item">
-        <button class="faq-question">Como funciona o rastreamento?<span>+</span></button>
-        <div class="faq-answer"><p>O veículo é monitorado através de tecnologia de rastreamento e pode ser acompanhado pelo aplicativo.</p></div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-question">Posso acompanhar pelo celular?<span>+</span></button>
-        <div class="faq-answer"><p>Sim. Você acompanha tudo diretamente pelo aplicativo.</p></div>
+        <button class="faq-question">A Dr.Monitora é seguradora?<span>+</span></button>
+        <div class="faq-answer"><p>Não. É uma solução de rastreamento, monitoramento, recuperação veicular e assistência conforme o plano contratado.</p></div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-question">Quanto tempo leva a instalação?<span>+</span></button>
-        <div class="faq-answer"><p>A instalação normalmente é rápida e realizada por profissionais especializados.</p></div>
+        <button class="faq-question">Tem análise de perfil?<span>+</span></button>
+        <div class="faq-answer"><p>Os planos informados trabalham sem análise de perfil e aceitam todos os veículos.</p></div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-question">O atendimento funciona 24 horas?<span>+</span></button>
-        <div class="faq-answer"><p>Sim. Nossa equipe está disponível para atendimento e suporte.</p></div>
+        <button class="faq-question">A instalação é cobrada?<span>+</span></button>
+        <div class="faq-answer"><p>As condições de instalação são explicadas durante o atendimento, conforme o plano escolhido.</p></div>
       </div>
 
-    </div>
-  </div>
-</section>
-
-<section class="captura section reveal" id="contato">
-  <div class="container">
-
-    <div class="captura-box">
-
-      <div class="captura-texto">
-        <span>SOLICITE SUA COTAÇÃO</span>
-        <h2>Receba uma proposta personalizada</h2>
-        <p>Preencha seus dados e fale diretamente com um especialista.</p>
+      <div class="faq-item">
+        <button class="faq-question">O que acontece depois que envio?<span>+</span></button>
+        <div class="faq-answer"><p>Sua pré-ficha abre no WhatsApp. Depois eu ligo para confirmar as informações e finalizar o atendimento.</p></div>
       </div>
-
-      <form id="formCotacao">
-        <input type="text" id="nome" placeholder="Seu nome" required>
-        <input type="tel" id="telefone" placeholder="Seu telefone" required>
-        <input type="text" id="veiculo" placeholder="Modelo do veículo" required>
-        <button type="submit">RECEBER PROPOSTA</button>
-      </form>
-
     </div>
 
-  </div>
-</section>
-
-<section class="mapa reveal">
-  <div class="container">
-    <div class="mapa-card">
-      <div>
-        <span>ONDE ATENDEMOS</span>
-        <h2>Barueri - São Paulo</h2>
-        <p>Atendimento comercial via WhatsApp para orientar sua cotação.</p>
-      </div>
-
-      <iframe
-        title="Mapa de Barueri São Paulo"
-        src="https://www.google.com/maps?q=Barueri%20S%C3%A3o%20Paulo&output=embed"
-        loading="lazy">
-      </iframe>
-    </div>
   </div>
 </section>
 
 </main>
 
 <footer class="footer">
-  <div class="container footer-grid">
-
-    <div>
-      <img src="img/logo.png" alt="Emerson Rastreia" class="footer-logo">
-      <p>Proteção veicular, rastreamento e monitoramento com tecnologia de ponta.</p>
+  <div class="container footer-simple">
+    <div class="footer-brand">
+      <img src="img/logo.png" alt="Emerson Monitora" class="footer-logo">
+      <strong>EMERSON MONITORA</strong>
     </div>
-
-    <div>
-      <h3>Links Rápidos</h3>
-      <ul>
-        <li><a href="#inicio">Início</a></li>
-        <li><a href="#planos">Planos</a></li>
-        <li><a href="#beneficios">Benefícios</a></li>
-        <li><a href="#faq">FAQ</a></li>
-      </ul>
-    </div>
-
-    <div>
-      <h3>Contato</h3>
-      <p>📞 (81) 98358-7253</p>
-      <p>📍 Barueri - SP</p>
-      <p>📷 @emrsmendes</p>
-    </div>
-
-  </div>
-
-  <div class="footer-bottom">
     © 2026 Emerson Rastreia. Todos os direitos reservados.
   </div>
 </footer>
 
-<a href="https://wa.me/5581983587253" target="_blank" class="whatsapp-float">
-  💬 <span>Fale Conosco</span>
+<a href="#contato" class="whatsapp-float">
+  💬 <span>Pré-ficha</span>
 </a>
+
+<nav class="app-bottom-nav" aria-label="Navegação rápida">
+  <a href="#inicio">Início</a>
+  <a href="#planos">Planos</a>
+  <a href="#contato">Pré-ficha</a>
+</nav>
 
 <script src="script.js"></script>
 
